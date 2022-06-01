@@ -21,6 +21,7 @@ namespace MVVMXamarin.View
             LvPersonas.ItemSelected += LvPersonas_ItemSelected;
         }
 
+        // Por selección de Item.
         private void LvPersonas_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)
